@@ -1,0 +1,34 @@
+.draggable {
+    width: 100px;
+    height: 100px;
+    background-color: #ffcc00;
+    border: 1px solid #000;
+    text-align: center;
+    padding-top: 40px;
+    cursor: move;
+}
+.droppable {
+    width: 200px;
+    height: 200px;
+    background-color: #e6e6e6;
+    border: 2px dashed #999;
+    margin-top: 20px;
+}
+.resizable {
+    width: 150px;
+    height: 150px;
+    background-color: #66ccff;
+    border: 1px solid #000;
+    overflow: hidden;
+    padding: 10px;
+    box-sizing: border-box;
+    resize: both;
+    cursor: nwse-resize;
+}
+.ui-selecting {
+    background: #FECA40;
+}
+.ui-selected {
+    background: #F39814;
+    color: white;
+}
